@@ -19,6 +19,7 @@ import {
   threejs,
   morfit,
   penguin,
+  studio,
 } from "../assets";
 
 export const navLinks = [
@@ -184,6 +185,28 @@ const projects = [
     ],
     image: morfitHome,
     isMobile: true,
+  },
+  {
+    name: "Agency Website",
+    description:
+      "Web application for a software development agency. Users can view the company's portfolio, services, and contact information, as well as send a message to the company.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "motion.framer",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: studio,
+    isMobile: false,
+    source_code_link: "https://github.com/santiracca/studio",
   },
 ];
 

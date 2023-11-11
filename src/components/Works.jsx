@@ -9,12 +9,12 @@ import { fadeIn, textVariant } from "../utils/motion";
 const ProjectCard = ({ index, name, description, tags, image, source_code_link, isMobile }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full' options={{ max: 45, scale: 1, speed: 450 }}>
-        <div className='relative w-full h-[230px]'>
+      <Tilt className='bg-tertiary p-5 rounded-2xl sm:w-[380px] w-full' options={{ max: 45, scale: 1, speed: 450 }}>
+        <div className='relative w-full h-[230px] '>
           <img
             src={image}
             alt={name}
-            className={`${isMobile ? "object-contain" : "object-cover"} w-full h-full rounded-2xl`}
+            className={`${isMobile ? "object-contain" : "object-center"} w-full h-full rounded-2xl`}
           />
           {source_code_link && (
             <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>

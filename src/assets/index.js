@@ -25,6 +25,7 @@ import morfit from "./company/mf_logo_green_sm.png";
 import penguin from "./company/penguin_logo.png";
 
 import morfitHome from "./morfit_home.png";
+import studio from "./studio_screen.png";
 
 export {
   logo,
@@ -51,4 +52,5 @@ export {
   morfitHome,
   morfit,
   penguin,
+  studio,
 };
