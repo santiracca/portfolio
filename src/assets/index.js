@@ -26,8 +26,10 @@ import penguin from "./company/penguin_logo.png";
 
 import morfitHome from "./morfit_home.png";
 import studio from "./studio_screen.png";
+import icon from "./sr_favicon.png";
 
 export {
+  icon,
   logo,
   backend,
   creator,

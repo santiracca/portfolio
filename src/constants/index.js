@@ -185,6 +185,7 @@ const projects = [
     ],
     image: morfitHome,
     isMobile: true,
+    source_code_link: "https://morfitapp.onelink.me/8Ce1/instagram",
   },
   {
     name: "Agency Website",
@@ -206,7 +207,7 @@ const projects = [
     ],
     image: studio,
     isMobile: false,
-    source_code_link: "https://github.com/santiracca/studio",
+    source_code_link: "https://santiracca-studio.netlify.app/",
   },
 ];
 
