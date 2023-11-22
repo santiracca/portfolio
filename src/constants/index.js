@@ -21,6 +21,7 @@ import {
   penguin,
   studio,
   apiDoc,
+  appDemo,
 } from "../assets";
 
 export const navLinks = [
@@ -167,26 +168,48 @@ const experiences = [
 
 const projects = [
   {
-    name: "Morfit",
+    name: "App Marketing",
     description:
-      "Mobile application for personalized nutrition coaching. Users can track their daily food intake, receive personalized feedback, and chat with their coach.",
+      "Invest at the perfect time. By leveraging insights from our network of industry insiders, you’ll know exactly when to buy to maximize profit, and exactly when to sell to avoid painful losses.",
     tags: [
       {
-        name: "flutter",
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "mdx",
         color: "green-text-gradient",
       },
       {
-        name: "postgress",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: morfitHome,
-    isMobile: true,
-    source_code_link: "https://morfitapp.onelink.me/8Ce1/instagram",
+    image: appDemo,
+    isMobile: false,
+    source_code_link: "https://santi-racca-app-demo.vercel.app/",
+  },
+  {
+    name: "API Documentation",
+    description:
+      "Documentation for a REST API. Users can view the API's endpoints, parameters, and responses. The website features a theme switcher and full text search.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "motion.framer",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: apiDoc,
+    isMobile: false,
+    source_code_link: "https://santi-racca-api-demo.vercel.app/",
   },
   {
     name: "Agency",
@@ -211,26 +234,26 @@ const projects = [
     source_code_link: "https://santiracca-studio.netlify.app/",
   },
   {
-    name: "API Documentation",
+    name: "Morfit",
     description:
-      "Documentation for a REST API. Users can view the API's endpoints, parameters, and responses. The website features a theme switcher and full text search.",
+      "Mobile application for personalized nutrition coaching. Users can track their daily food intake, receive personalized feedback, and chat with their coach.",
     tags: [
       {
-        name: "next.js",
+        name: "flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "motion.framer",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "postgress",
         color: "pink-text-gradient",
       },
     ],
-    image: apiDoc,
-    isMobile: false,
-    source_code_link: "https://santi-racca-api-demo.vercel.app/",
+    image: morfitHome,
+    isMobile: true,
+    source_code_link: "https://morfitapp.onelink.me/8Ce1/instagram",
   },
 ];
 

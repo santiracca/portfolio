@@ -28,9 +28,11 @@ import morfitHome from "./morfit_home.png";
 import studio from "./studio_screen.png";
 import icon from "./sr_favicon.png";
 import apiDoc from "./api_doc.png";
+import appDemo from "./app_demo.png";
 
 export {
   icon,
+  appDemo,
   logo,
   backend,
   creator,
