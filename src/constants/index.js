@@ -20,6 +20,7 @@ import {
   morfit,
   penguin,
   studio,
+  apiDoc,
 } from "../assets";
 
 export const navLinks = [
@@ -188,7 +189,7 @@ const projects = [
     source_code_link: "https://morfitapp.onelink.me/8Ce1/instagram",
   },
   {
-    name: "Agency Website",
+    name: "Agency",
     description:
       "Web application for a software development agency. Users can view the company's portfolio, services, and contact information, as well as send a message to the company.",
     tags: [
@@ -208,6 +209,28 @@ const projects = [
     image: studio,
     isMobile: false,
     source_code_link: "https://santiracca-studio.netlify.app/",
+  },
+  {
+    name: "API Documentation",
+    description:
+      "Documentation for a REST API. Users can view the API's endpoints, parameters, and responses. The website features a theme switcher and full text search.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "motion.framer",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: apiDoc,
+    isMobile: false,
+    source_code_link: "https://santi-racca-api-demo.vercel.app/",
   },
 ];
 

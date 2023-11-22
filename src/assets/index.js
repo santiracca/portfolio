@@ -27,6 +27,7 @@ import penguin from "./company/penguin_logo.png";
 import morfitHome from "./morfit_home.png";
 import studio from "./studio_screen.png";
 import icon from "./sr_favicon.png";
+import apiDoc from "./api_doc.png";
 
 export {
   icon,
@@ -36,6 +37,7 @@ export {
   mobile,
   web,
   github,
+  apiDoc,
   menu,
   close,
   css,
